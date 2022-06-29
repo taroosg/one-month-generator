@@ -15,7 +15,7 @@ const formatDate = (year: number, month: number, day: number) => `${String(year)
 const createDays = (year: number, month: number) => {
   const days = [...new Array(getLastDay(year, month)).keys()]
     .map((x) => x + 1)
-    .map((x, i) => `${formatDate(year, month, x)}（${getDay(new Date(`${year}-0${month}-${x}`).getDay())}）`);
+    .map((x, i) => `${formatDate(year, month, x)}（${getDay(new Date(`${year}/0${month}/${x}`).getDay())}）`);
   return days;
 }
 
