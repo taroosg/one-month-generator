@@ -1,3 +1,7 @@
+## Deploy
+
+[https://taroosg.github.io/one-month-generator/](https://taroosg.github.io/one-month-generator/)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
