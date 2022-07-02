@@ -1,21 +1,23 @@
 @import "@fontsource/noto-sans";
 
-        * {
-          font-family: "Noto Sans JP";
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          font-size: 4.5vmin;
-          /* color: #2e2930; */
-          color: #595857;
-          font-feature-settings: "palt";
-          letter-spacing: 0.08vmin;
-        }
+* {
+  font-family: "Noto Sans JP";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 4.5vmin;
+  /* color: #2e2930; */
+  color: #595857;
+  font-feature-settings: "palt";
+  letter-spacing: 0.08vmin;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  vertical-align: middle;
 }
 
 .header {
